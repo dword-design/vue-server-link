@@ -21,7 +21,7 @@ export default {
     to: { required: true, type: [String, Object] },
   },
   render: context => {
-    const translatedTo = context.props.noTranslate
+    const translatedTo = context.props.noTranslate || !('localePath' in context.parent)
       ? context.props.to
       : context.parent.localePath(context.props.to)
     const current = context.parent.$route
