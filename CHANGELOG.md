@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/dword-design/vue-server-link/compare/v1.0.0...v1.0.1) (2020-08-19)
+
+
+### Bug Fixes
+
+* catch missing localePath ([33dc9b8](https://github.com/dword-design/vue-server-link/commit/33dc9b8352a5d1fdb9aa60032535d5b1022568bd))
+
 # 1.0.0 (2020-08-19)
 
 
