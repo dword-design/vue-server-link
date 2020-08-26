@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/dword-design/vue-server-link/compare/v1.0.2...v1.0.3) (2020-08-26)
+
+
+### Bug Fixes
+
+* trigger release ([3c11c8c](https://github.com/dword-design/vue-server-link/commit/3c11c8c1811691e4af20803d9b56f9d76b028dca))
+
 ## [1.0.2](https://github.com/dword-design/vue-server-link/compare/v1.0.1...v1.0.2) (2020-08-25)
 
 
