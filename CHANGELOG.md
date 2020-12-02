@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/dword-design/vue-server-link/compare/v1.0.3...v1.0.4) (2020-12-02)
+
+
+### Bug Fixes
+
+* **config:** Update changed files ([0a31c84](https://github.com/dword-design/vue-server-link/commit/0a31c84a5255a55df3599f996580475777163e16))
+
 ## [1.0.3](https://github.com/dword-design/vue-server-link/compare/v1.0.2...v1.0.3) (2020-08-26)
 
 
