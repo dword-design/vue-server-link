@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/dword-design/vue-server-link/compare/v1.0.4...v1.0.5) (2021-02-17)
+
+
+### Bug Fixes
+
+* upgrades ([0004009](https://github.com/dword-design/vue-server-link/commit/00040097938b80076823b3a75781f253738033da))
+
 ## [1.0.4](https://github.com/dword-design/vue-server-link/compare/v1.0.3...v1.0.4) (2020-12-02)
 
 
