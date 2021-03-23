@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/dword-design/vue-server-link/compare/v1.0.5...v1.0.6) (2021-03-23)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v3 ([#8](https://github.com/dword-design/vue-server-link/issues/8)) ([828b7ed](https://github.com/dword-design/vue-server-link/commit/828b7edf428d1acf6c8878855cb366d6a380daf2))
+
 ## [1.0.5](https://github.com/dword-design/vue-server-link/compare/v1.0.4...v1.0.5) (2021-02-17)
 
 
