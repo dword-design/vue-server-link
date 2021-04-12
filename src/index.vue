@@ -1,6 +1,4 @@
 <script>
-import { startsWith } from '@dword-design/functions'
-
 export default {
   functional: true,
   props: {
@@ -20,7 +18,8 @@ export default {
     },
     to: { required: true, type: [String, Object] },
   },
-  render: context => {
+  render: (h, context) => {
+    const Tag = context.props.tag
     const translatedTo = context.props.noTranslate || !('localePath' in context.parent)
       ? context.props.to
       : context.parent.localePath(context.props.to)
@@ -42,12 +41,12 @@ export default {
     classes[exactActiveClass] = resolved.href === context.parent.$route.path
     classes[activeClass] = context.props.exact
       ? classes[exactActiveClass]
-      : context.parent.$route.path |> startsWith(resolved.href)
+      : context.parent.$route.path.startsWith(resolved.href)
     const ariaCurrentValue = classes[exactActiveClass]
       ? context.props.ariaCurrentValue
       : undefined
     return (
-      <a
+      <Tag
         {...context.data}
         aria-current={ariaCurrentValue}
         class={classes}
@@ -59,7 +58,7 @@ export default {
           isExactActive: classes[exactActiveClass],
           route: resolved.route,
         })}
-      </a>
+      </Tag>
     )
   },
 }

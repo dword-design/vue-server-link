@@ -21,12 +21,10 @@
     "prepublishOnly": "base prepublishOnly",
     "test": "base test"
   },
-  "dependencies": {
-    "@dword-design/functions": "^3.0.0"
-  },
   "devDependencies": {
     "@dword-design/base": "^7.0.0",
     "@dword-design/base-config-component": "^1.1.2",
+    "@dword-design/functions": "^3.0.0",
     "@dword-design/puppeteer": "^3.0.4",
     "@dword-design/tester": "^1.2.5",
     "@dword-design/tester-plugin-component": "^1.1.8",

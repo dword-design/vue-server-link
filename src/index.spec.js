@@ -5,11 +5,41 @@ import testerPluginPuppeteer from '@dword-design/tester-plugin-puppeteer'
 
 export default tester(
   {
-    works: {
+    active: {
+      page: endent`
+      <template>
+        <self class="foo" :to="{ name: 'index' }">
+          Foo
+        </self>
+      </template>
+
+    `,
+      async test() {
+        await this.page.goto('http://localhost:3000')
+        await this.page.waitForSelector('.foo.nuxt-link-active')
+      },
+    },
+    activeClass: {
+      page: endent`
+      <template>
+        <self class="foo" active-class="is-active" :to="{ name: 'index' }">
+          Foo
+        </self>
+      </template>
+
+    `,
+      async test() {
+        await this.page.goto('http://localhost:3000')
+        await this.page.waitForSelector('.foo.is-active')
+      },
+    },
+    navigation: {
       files: {
         'pages/other.vue': endent`
             <template>
-              <div class="bar">Bar</div>
+              <div class="bar">
+                Bar
+              </div>
             </template>
           `,
       },
@@ -31,6 +61,20 @@ export default tester(
 
         const bar = await this.page.waitForSelector('.bar')
         expect(await bar.evaluate(el => el.innerText)).toEqual('Bar')
+      },
+    },
+    tag: {
+      page: endent`
+      <template>
+        <self class="foo" tag="button" :to="{ name: 'index' }">
+          Foo
+        </self>
+      </template>
+
+    `,
+      async test() {
+        await this.page.goto('http://localhost:3000')
+        await this.page.waitForSelector('button.foo')
       },
     },
   },
