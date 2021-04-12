@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/dword-design/vue-server-link/compare/v1.0.6...v1.0.7) (2021-04-12)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#7](https://github.com/dword-design/vue-server-link/issues/7)) ([193bed1](https://github.com/dword-design/vue-server-link/commit/193bed1899ad669a5e94eb046996d4a792342409))
+
 ## [1.0.6](https://github.com/dword-design/vue-server-link/compare/v1.0.5...v1.0.6) (2021-03-23)
 
 
