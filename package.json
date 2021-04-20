@@ -1,7 +1,7 @@
 {
   "name": "@dword-design/vue-server-link",
   "version": "1.0.7",
-  "description": "",
+  "description": null,
   "repository": "dword-design/vue-server-link",
   "funding": "https://www.buymeacoffee.com/dword",
   "license": "MIT",
@@ -33,5 +33,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "baseConfig": "@dword-design/component"
+  "baseConfig": "@dword-design/component",
+  "homepage": null,
+  "keywords": []
 }
