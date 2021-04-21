@@ -1,3 +1,11 @@
+## [1.0.8](https://github.com/dword-design/vue-server-link/compare/v1.0.7...v1.0.8) (2021-04-21)
+
+
+### Bug Fixes
+
+* update config files ([6bef798](https://github.com/dword-design/vue-server-link/commit/6bef79845db4898deb448faa6855691f454632bb))
+* updated package.json[description] ([#13](https://github.com/dword-design/vue-server-link/issues/13)) ([5f84837](https://github.com/dword-design/vue-server-link/commit/5f8483744a8b379c7bc53c410eeebcd8541ee377))
+
 ## [1.0.7](https://github.com/dword-design/vue-server-link/compare/v1.0.6...v1.0.7) (2021-04-12)
 
 
