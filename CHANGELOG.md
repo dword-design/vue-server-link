@@ -1,3 +1,10 @@
+## [1.0.10](https://github.com/dword-design/vue-server-link/compare/v1.0.9...v1.0.10) (2021-04-26)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/puppeteer to v4 ([#17](https://github.com/dword-design/vue-server-link/issues/17)) ([bdc3dfd](https://github.com/dword-design/vue-server-link/commit/bdc3dfd9075ae7cd5681a667be319c57334b3b14))
+
 ## [1.0.9](https://github.com/dword-design/vue-server-link/compare/v1.0.8...v1.0.9) (2021-04-22)
 
 
