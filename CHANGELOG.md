@@ -1,3 +1,10 @@
+## [1.0.11](https://github.com/dword-design/vue-server-link/compare/v1.0.10...v1.0.11) (2021-04-28)
+
+
+### Bug Fixes
+
+* updated package.json[description] ([#15](https://github.com/dword-design/vue-server-link/issues/15)) ([e4c3c73](https://github.com/dword-design/vue-server-link/commit/e4c3c7308b04f78d53a5bb7068c049dce5e46de1))
+
 ## [1.0.10](https://github.com/dword-design/vue-server-link/compare/v1.0.9...v1.0.10) (2021-04-26)
 
 
