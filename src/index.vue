@@ -20,20 +20,27 @@ export default {
   },
   render: (h, context) => {
     const Tag = context.props.tag
-    const translatedTo = context.props.noTranslate || !('localePath' in context.parent)
-      ? context.props.to
-      : context.parent.localePath(context.props.to)
+
+    const translatedTo =
+      context.props.noTranslate || !('localePath' in context.parent)
+        ? context.props.to
+        : context.parent.localePath(context.props.to)
+
     const current = context.parent.$route
+
     const resolved = context.parent.$router.resolve(
       translatedTo,
       current,
       context.props.append
     )
+
     const classes = {}
+
     const activeClass =
       context.props.activeClass ||
       context.parent.$router.options.linkActiveClass ||
       'router-link-active'
+
     const exactActiveClass =
       context.props.exactActiveClass ||
       context.parent.$router.options.linkExactActiveClass ||
@@ -42,9 +49,11 @@ export default {
     classes[activeClass] = context.props.exact
       ? classes[exactActiveClass]
       : context.parent.$route.path.startsWith(resolved.href)
+
     const ariaCurrentValue = classes[exactActiveClass]
       ? context.props.ariaCurrentValue
       : undefined
+
     return (
       <Tag
         {...context.data}
