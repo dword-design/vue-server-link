@@ -29,6 +29,9 @@
     "@dword-design/tester-plugin-component": "^1.1.8",
     "@dword-design/tester-plugin-puppeteer": "^2.1.1"
   },
+  "engines": {
+    "node": ">=12"
+  },
   "publishConfig": {
     "access": "public"
   },
