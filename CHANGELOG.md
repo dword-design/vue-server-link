@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/dword-design/vue-server-link/compare/v2.0.1...v2.0.2) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/puppeteer to v5 ([#22](https://github.com/dword-design/vue-server-link/issues/22)) ([42dc676](https://github.com/dword-design/vue-server-link/commit/42dc67666d3312a076f4f0ae618893db1f4c1fcd))
+
 ## [2.0.1](https://github.com/dword-design/vue-server-link/compare/v2.0.0...v2.0.1) (2021-05-04)
 
 
