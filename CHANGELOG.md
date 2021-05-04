@@ -1,3 +1,11 @@
+## [2.0.1](https://github.com/dword-design/vue-server-link/compare/v2.0.0...v2.0.1) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v4 ([#20](https://github.com/dword-design/vue-server-link/issues/20)) ([12f3272](https://github.com/dword-design/vue-server-link/commit/12f32722edb66f53dd736264f5d7a63d899f490d))
+* update dependency @dword-design/tester to v2 ([#21](https://github.com/dword-design/vue-server-link/issues/21)) ([ef9e5a1](https://github.com/dword-design/vue-server-link/commit/ef9e5a1f87297b484a360e08fcc061022f9d3a79))
+
 # [2.0.0](https://github.com/dword-design/vue-server-link/compare/v1.0.11...v2.0.0) (2021-05-03)
 
 
