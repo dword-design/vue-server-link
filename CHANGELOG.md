@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/dword-design/vue-server-link/compare/v2.0.2...v2.0.3) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester-plugin-component to v2 ([#23](https://github.com/dword-design/vue-server-link/issues/23)) ([eec759b](https://github.com/dword-design/vue-server-link/commit/eec759bfb9ac2c6eef2911ff49b064a41dd5b300))
+
 ## [2.0.2](https://github.com/dword-design/vue-server-link/compare/v2.0.1...v2.0.2) (2021-05-04)
 
 
