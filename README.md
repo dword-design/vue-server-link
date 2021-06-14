@@ -54,14 +54,52 @@
 <!-- /DESCRIPTION -->
 
 <!-- INSTALL/ -->
-## Install
-
+## Install Via a Package Manager
 ```bash
 # npm
-$ npm install @dword-design/vue-server-link
+$ npm install vue-server-link
 
 # Yarn
-$ yarn add @dword-design/vue-server-link
+$ yarn add vue-server-link
+```
+
+Add to local components:
+
+```js
+<script>
+import VueServerLink from 'vue-server-link'
+
+export default {
+  components: {
+    VueServerLink,
+  },
+}
+</script>
+```
+
+Or register as global component:
+
+```js
+import Vue from 'vue'
+import VueServerLink from 'vue-server-link'
+
+Vue.component('VueServerLink', VueServerLink)
+```
+
+Or register as plugin:
+
+```js
+import Vue from 'vue'
+import VueServerLink from 'vue-server-link'
+
+Vue.use(VueServerLink)
+```
+
+## Install Via CDN
+
+```html
+<script src="https://unpkg.com/vue"></script>
+<script src="https://unpkg.com/vue-server-link"></script>
 ```
 <!-- /INSTALL -->
 
