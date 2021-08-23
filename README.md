@@ -96,7 +96,7 @@ import VueServerLink from 'vue-server-link'
 Vue.use(VueServerLink)
 ```
 
-## Install Via CDN
+## Install via CDN
 
 ```html
 <script src="https://unpkg.com/vue"></script>
