@@ -66,7 +66,7 @@ $ yarn add vue-server-link
 
 Add to local components:
 
-```js
+```html
 <script>
 import VueServerLink from 'vue-server-link'
 
