@@ -1,3 +1,10 @@
+## [2.0.12](https://github.com/dword-design/vue-server-link/compare/v2.0.11...v2.0.12) (2022-02-01)
+
+
+### Bug Fixes
+
+* update config files ([3c45ddb](https://github.com/dword-design/vue-server-link/commit/3c45ddb968695e59e904ae9292eefbb7b7fd4546))
+
 ## [2.0.11](https://github.com/dword-design/vue-server-link/compare/v2.0.10...v2.0.11) (2022-01-12)
 
 
