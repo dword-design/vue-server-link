@@ -1476,9 +1476,7 @@
     rollup-plugin-vue "github:dword-design/rollup-plugin-vue#fork"
 
 "@dword-design/tester-plugin-component@^2.0.0":
-  version "2.0.11"
-  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-component/-/tester-plugin-component-2.0.11.tgz#d9ab48ef6b85cb9698196d3d766d65d496637e4c"
-  integrity sha512-wHlbChROqzF/dh6MPa8cuYPP+VKffhCt6OLFfQlQF3L3Yhtl8ME+z3dfboQasZ6aWQXh3+FDakqlKF1EVLNOWA==
+  version "2.0.15"
   dependencies:
     "@dword-design/functions" "^4.0.0"
     depcheck-package-name "^2.0.0"
