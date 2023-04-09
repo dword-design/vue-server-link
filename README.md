@@ -81,25 +81,23 @@ export default {
 Or register as a global component:
 
 ```js
-import Vue from 'vue'
 import VueServerLink from '@dword-design/vue-server-link'
 
-Vue.component('VueServerLink', VueServerLink)
+app.component('VueServerLink', VueServerLink)
 ```
 
 Or register as a plugin:
 
 ```js
-import Vue from 'vue'
 import VueServerLink from '@dword-design/vue-server-link'
 
-Vue.use(VueServerLink)
+app.use(VueServerLink)
 ```
 
 ## Install via CDN
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 <script src="https://unpkg.com/@dword-design/vue-server-link"></script>
 ```
 <!-- /INSTALL -->
