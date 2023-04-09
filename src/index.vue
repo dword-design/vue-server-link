@@ -31,7 +31,7 @@ export default {
     const resolved = context.parent.$router.resolve(
       translatedTo,
       current,
-      context.props.append
+      context.props.append,
     )
 
     const classes = {}

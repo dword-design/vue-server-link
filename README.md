@@ -58,17 +58,17 @@
 
 ```bash
 # npm
-$ npm install vue-server-link
+$ npm install @dword-design/vue-server-link
 
 # Yarn
-$ yarn add vue-server-link
+$ yarn add @dword-design/vue-server-link
 ```
 
 Add to local components:
 
 ```html
 <script>
-import VueServerLink from 'vue-server-link'
+import VueServerLink from '@dword-design/vue-server-link'
 
 export default {
   components: {
@@ -82,7 +82,7 @@ Or register as a global component:
 
 ```js
 import Vue from 'vue'
-import VueServerLink from 'vue-server-link'
+import VueServerLink from '@dword-design/vue-server-link'
 
 Vue.component('VueServerLink', VueServerLink)
 ```
@@ -91,7 +91,7 @@ Or register as a plugin:
 
 ```js
 import Vue from 'vue'
-import VueServerLink from 'vue-server-link'
+import VueServerLink from '@dword-design/vue-server-link'
 
 Vue.use(VueServerLink)
 ```
@@ -100,7 +100,7 @@ Vue.use(VueServerLink)
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
-<script src="https://unpkg.com/vue-server-link"></script>
+<script src="https://unpkg.com/@dword-design/vue-server-link"></script>
 ```
 <!-- /INSTALL -->
 
