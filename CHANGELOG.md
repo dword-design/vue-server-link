@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/dword-design/vue-server-link/compare/v2.0.13...v3.0.0) (2023-04-09)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#68](https://github.com/dword-design/vue-server-link/issues/68)) ([a2e7491](https://github.com/dword-design/vue-server-link/commit/a2e74912d4d1ac7a5341174a37c19cfaf4fbc795))
+
+
+### BREAKING CHANGES
+
+* drop node 12 support, switch to esm
+
 ## [2.0.13](https://github.com/dword-design/vue-server-link/compare/v2.0.12...v2.0.13) (2022-09-21)
 
 
