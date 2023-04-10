@@ -1,3 +1,10 @@
+## [3.0.4](https://github.com/dword-design/vue-server-link/compare/v3.0.3...v3.0.4) (2023-04-10)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester to v2.0.17 ([12da2f0](https://github.com/dword-design/vue-server-link/commit/12da2f0f49e7e21955ac2c6f91261bac9cd26397))
+
 ## [3.0.3](https://github.com/dword-design/vue-server-link/compare/v3.0.2...v3.0.3) (2023-04-10)
 
 
