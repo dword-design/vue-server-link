@@ -1231,9 +1231,9 @@
   integrity sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==
 
 "@dword-design/babel-config@^2.0.0", "@dword-design/babel-config@^2.1.1":
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/@dword-design/babel-config/-/babel-config-2.2.4.tgz#dd2c96c99a663af32aa02887fd19829e59d631b9"
-  integrity sha512-0SBoGvaCWnM5chUyODhbeRViw7GCsMzE5Ihm6IV7A26jOTN+knXgphDvATSjrVz89UIPo+PWDEADbUjRyn7T+A==
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/@dword-design/babel-config/-/babel-config-2.2.6.tgz#da673e692eadd786bc077b0f351c3863261ff6fd"
+  integrity sha512-x5mwfyKUhW+bS1Rv/ovYakT+rA86E27zSJeF2q0lGXodHtQ62uTlNPxRhSD2PacJeL9nxqO67dyelZPkEs5I5g==
   dependencies:
     "@babel/plugin-proposal-optional-chaining" "^7.6.0"
     "@babel/plugin-proposal-pipeline-operator" "^7.5.0"
@@ -1288,9 +1288,9 @@
     micromatch "^4.0.2"
 
 "@dword-design/base@^9.5.7":
-  version "9.5.10"
-  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-9.5.10.tgz#d6363128997ff32593240bae766bcec92017666f"
-  integrity sha512-axs5aw08qdo7G5j0vnlyuXgZGBWcySBZrNQ0aVHj10Gp3Pk6guAFTOXocmfUtP9ANz48aqDvgCj/b8nl7/kaog==
+  version "9.5.11"
+  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-9.5.11.tgz#3261e6e56bca55c2414314ce948a105bbcdc1756"
+  integrity sha512-bMr3YPhBEPVjYaRGsUfvvfGpLfaQjoGhaJoBH1k1tbq7Eo/FKzQQmg9aYpQUrVQe2m+h1emA0ET0cytg/jq1xA==
   dependencies:
     "@commitlint/cli" "^17.4.0"
     "@commitlint/config-conventional" "^17.4.0"
@@ -1370,21 +1370,10 @@
   dependencies:
     babel-plugin-add-module-exports "^1.0.2"
 
-"@dword-design/depcheck-parser-sass@^3.0.0":
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/@dword-design/depcheck-parser-sass/-/depcheck-parser-sass-3.0.5.tgz#eb575ead0a7aa0c217c3bc586e6025750ff226fb"
-  integrity sha512-TUasuhEx7l8mlmAvRPBJNxRtNJczwqECXiHyJcDVOccUezE5iJeEKaj1O5qFh1DoJutdQdu2GStdpaopVwfqzw==
-  dependencies:
-    "@dword-design/functions" "^4.0.0"
-    get-package-name "^2.0.0"
-    node-sass "^8.0.0"
-    node-sass-package-importer "^5.3.2"
-    require-package-name "^2.0.1"
-
-"@dword-design/depcheck-parser-sass@^3.0.1":
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/@dword-design/depcheck-parser-sass/-/depcheck-parser-sass-3.0.4.tgz#b3323083d627860f19d2c4205734fc796b2934c4"
-  integrity sha512-b25PAegSXJ8mgEz9gSPFYuoZ//7gDLPdTJYwK2KrIDPMo/twnGjX4zjwcONPG6tCineahVBVH08TeO7zy0wMZw==
+"@dword-design/depcheck-parser-sass@^3.0.0", "@dword-design/depcheck-parser-sass@^3.0.1":
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/@dword-design/depcheck-parser-sass/-/depcheck-parser-sass-3.0.7.tgz#c73312ff242b1400c092bc0864eea600c1037307"
+  integrity sha512-+/Hmk0c0Hu1rSCflqXrU3B7tGjVYhpXQr/BdcncimQed1ZIGW08yRgqWM6U0Yr8OzX7wlmgCyJdYqUqvPlu1mA==
   dependencies:
     "@dword-design/functions" "^4.0.0"
     get-package-name "^2.0.0"
@@ -1402,9 +1391,9 @@
     objectorarray "^1.0.3"
 
 "@dword-design/eslint-config@^3.0.6":
-  version "3.0.23"
-  resolved "https://registry.yarnpkg.com/@dword-design/eslint-config/-/eslint-config-3.0.23.tgz#d750c121992f898b55fd226c2939fc34cb7aa85a"
-  integrity sha512-BfdqDVtOjzF0P3ZRKAeXye+1NK+Xyrt6Er+pvuIrFQ0Pu2g8PIoAdKyHzxUsDidhW197ZVJP1S8HGZ/DjvTHxw==
+  version "3.0.24"
+  resolved "https://registry.yarnpkg.com/@dword-design/eslint-config/-/eslint-config-3.0.24.tgz#f4ab3e0196d001e70f689f8f77eb386a1a09c324"
+  integrity sha512-ahc/HXcLGCfU4xtbk73WUdAZKzOayQ46l2gHtm4x124S0oTZIrl0t0KDfhChtHY5ZQYjLchVayAUm8OyYoqZVA==
   dependencies:
     "@babel/eslint-parser" "^7.13.14"
     "@dword-design/babel-config" "^2.0.0"
@@ -1488,7 +1477,7 @@
     minimist "^1.2.5"
     parse-packagejson-name "^1.0.1"
     rollup-plugin-terser "^7.0.0"
-    rollup-plugin-vue dword-design/rollup-plugin-vue#fork
+    rollup-plugin-vue "github:dword-design/rollup-plugin-vue#fork"
 
 "@dword-design/setup-test@^1.0.2":
   version "1.0.2"
@@ -1496,9 +1485,9 @@
   integrity sha512-W861E4cbZmUaYri3mhZNfpo2Yxc1hHPP0v5iDZGE+h9EHplY+8tzWaTNHIF67DmrcDLP79zxd/lkJX0xZs0l8Q==
 
 "@dword-design/suppress-babel-register-esm-warning@^1.1.0":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@dword-design/suppress-babel-register-esm-warning/-/suppress-babel-register-esm-warning-1.1.4.tgz#1c45b9b3f909981726d4ae12399b4c7b11385c86"
-  integrity sha512-tm1gvZ+t4mpvuBhngiCNMUcxNa2vSYWHdXrelw6LzPlCjzgs03EcVvdubyBFmmXUptVLf7uMz03LB6bmeSsi9A==
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@dword-design/suppress-babel-register-esm-warning/-/suppress-babel-register-esm-warning-1.1.5.tgz#ad112eb2913bf73c4a2b4f3fd94f4d0c675b943a"
+  integrity sha512-3TTyQk1qvkkmj3lHnV78IcHouFl+s/iTpi9qqcUOEG8Sny+r70tK0KFoBdv9hIAhIu76kuSsNtLuqM4v0h6pMA==
 
 "@dword-design/tester-plugin-component@^2.0.0":
   version "2.0.15"
@@ -1514,9 +1503,9 @@
     with-local-tmp-dir "^5.0.0"
 
 "@dword-design/tester-plugin-puppeteer@^2.1.1":
-  version "2.1.49"
-  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-puppeteer/-/tester-plugin-puppeteer-2.1.49.tgz#6bf4b02190d694770e708e06c430b219c1593ff3"
-  integrity sha512-bHpBA8xEvUWqWmpVjMBZxH4qTxgw03RGZrCFiYle6mckDJuzqQpM03FM2eRJW54LJcBPOwNL0wh1hWG1lsYN+w==
+  version "2.1.52"
+  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-puppeteer/-/tester-plugin-puppeteer-2.1.52.tgz#22a54f89ac2409f3160cd1d845dd6e537f43168b"
+  integrity sha512-ftcbXstZXxe3Spfq5Z0U33qQ1in+tBum1JbIaFjb+FyJy1XhYntw2DPMvAv3bEMqFKfWoCwltckbvpt+CcfUiA==
   dependencies:
     is-docker "^3.0.0"
     xvfb "^0.4.0"
@@ -3058,6 +3047,7 @@
 
 "@vue/component-compiler@dword-design/vue-component-compiler#fork":
   version "4.2.3"
+  uid f428eec2731f86664bcd40723ba61a333fd9e8d2
   resolved "https://codeload.github.com/dword-design/vue-component-compiler/tar.gz/f428eec2731f86664bcd40723ba61a333fd9e8d2"
   dependencies:
     "@vue/component-compiler-utils" "^3.0.0"
@@ -4431,12 +4421,7 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001228:
-  version "1.0.30001476"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001476.tgz#759906c53eae17133217d75b482f9dc5c02f7898"
-  integrity sha512-JmpktFppVSvyUN4gsLS0bShY2L9ZUslHLE72vgemBkS43JD2fOvKTKs+GtRwuxrtRGnwJFW0ye7kWRRlLJS9vQ==
-
-caniuse-lite@^1.0.30001449:
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001228, caniuse-lite@^1.0.30001449:
   version "1.0.30001477"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001477.tgz#a2ffb2276258233034bbb869d4558b02658a511e"
   integrity sha512-lZim4iUHhGcy5p+Ri/G7m84hJwncj+Kz7S5aD4hoQfslKZJgt0tHc/hafVbqHC5bbhHb+mrW2JOUHkI5KH7toQ==
@@ -5714,9 +5699,9 @@ delete-empty@^3.0.0:
     rimraf "^2.6.2"
 
 depcheck-detector-execa@^3.0.4:
-  version "3.0.22"
-  resolved "https://registry.yarnpkg.com/depcheck-detector-execa/-/depcheck-detector-execa-3.0.22.tgz#89a9d9a65260abedd63ab389d2227fd286db6582"
-  integrity sha512-R7NaOz2LCKE3RD+W7GY/1oGbMAxyxfd5vFundwdyGd7y1KbrIXYlOU/Jxq6loKGTtNFCHWc6Vncyu/ZQNly7nA==
+  version "3.0.23"
+  resolved "https://registry.yarnpkg.com/depcheck-detector-execa/-/depcheck-detector-execa-3.0.23.tgz#34f9dc26df938b6a3e784af72614afffe9a88af6"
+  integrity sha512-f07gS4apDjLOYeEWdb1eqIfUN9BZSR/OjrTQz7MO9t/RSD5xU9NQHUWF2HhSPp9H9AapVmmZCgFNPA7FACcebA==
   dependencies:
     "@dword-design/functions" "^4.0.0"
     fs-extra "^11.1.0"
@@ -6857,9 +6842,9 @@ expand-tilde@^2.0.0, expand-tilde@^2.0.2:
     homedir-polyfill "^1.0.1"
 
 expect-mocha-image-snapshot@^3.0.1:
-  version "3.0.10"
-  resolved "https://registry.yarnpkg.com/expect-mocha-image-snapshot/-/expect-mocha-image-snapshot-3.0.10.tgz#a077290264ee9581942534c89432eb3e280997f1"
-  integrity sha512-o6Q4T5N+4Zry2m9WhKURfb8eOKl15Sm5BaDuF4AUiH/SP+IkaI+zZ4KKlgphyVRpRXBMTL4AxMcNyi9xva3SMQ==
+  version "3.0.11"
+  resolved "https://registry.yarnpkg.com/expect-mocha-image-snapshot/-/expect-mocha-image-snapshot-3.0.11.tgz#02e847573c1a8aec839aacc2279b447f870b4b48"
+  integrity sha512-5/7nQ3ktKNuz9ZHnEWwbx7O2aJw8HWcwTtRlrqW5IOxjDrEKussCWRiVMWrUQ8u/oY4SK3h1bDOFQuVfwpq7Aw==
   dependencies:
     jest-image-snapshot "^4.4.0"
     jest-snapshot "^27.0.0"
@@ -11860,9 +11845,9 @@ os-tmpdir@~1.0.2:
   integrity sha512-D2FR03Vir7FIu45XBY20mTb+/ZSWB00sjU9jdQXt83gDrI4Ztz5Fs7/yy74g2N5SVQY4xY1qDr4rNddwYRVX0g==
 
 output-files@^2.0.0:
-  version "2.0.22"
-  resolved "https://registry.yarnpkg.com/output-files/-/output-files-2.0.22.tgz#8c690712fd90f78469ec23a9c5f0767c961bc823"
-  integrity sha512-y8Z7s/NEbaKLDgACgnRLXMJSk3p0eRYGtYBXgY7ecHfFHcEzTbWDLHU2N25kk81OC1IlaPQycd1eVRrsH8OCqw==
+  version "2.0.23"
+  resolved "https://registry.yarnpkg.com/output-files/-/output-files-2.0.23.tgz#d7fb13fca4ba425f78f35048ac086ec3601bdbad"
+  integrity sha512-55SUoGYSgs5ODyJ4nwb6UE0kkbFYwEgRQlPtIcxbTZX5PLXA3QumBWfBCNP9qNlQNNzNI+wnrJZzN/nXHE7bHQ==
   dependencies:
     "@dword-design/functions" "^4.0.0"
     fs-extra "^11.1.0"
@@ -12757,6 +12742,7 @@ postcss-modules-scope@^2.2.0:
 
 postcss-modules-sync@dword-design/postcss-modules-sync#fork:
   version "1.0.0"
+  uid fe138e704dbbe9b37c395854cc74b364760f1a51
   resolved "https://codeload.github.com/dword-design/postcss-modules-sync/tar.gz/fe138e704dbbe9b37c395854cc74b364760f1a51"
   dependencies:
     generic-names "^1.0.2"
@@ -14037,7 +14023,7 @@ rollup-plugin-terser@^7.0.0:
     serialize-javascript "^4.0.0"
     terser "^5.0.0"
 
-rollup-plugin-vue@dword-design/rollup-plugin-vue#fork:
+"rollup-plugin-vue@github:dword-design/rollup-plugin-vue#fork":
   version "5.1.9"
   uid cd6e2f19d2be7e4363532e00119c904696c0af7c
   resolved "https://codeload.github.com/dword-design/rollup-plugin-vue/tar.gz/cd6e2f19d2be7e4363532e00119c904696c0af7c"
@@ -15123,9 +15109,9 @@ supports-preserve-symlinks-flag@^1.0.0:
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
 suppress-experimental-warnings@^1.1.0:
-  version "1.1.9"
-  resolved "https://registry.yarnpkg.com/suppress-experimental-warnings/-/suppress-experimental-warnings-1.1.9.tgz#4d30f684f678a8edc53e6cd7a92cb816e1f1d6cf"
-  integrity sha512-B/Ekkc+9+6DpreEO5phqMkEIFCkBM1IQ0eQnZTu5orEd9wJSyOrL4Qir0KmGPt5X0Wk9BVT9YWe25ImXUZoILw==
+  version "1.1.10"
+  resolved "https://registry.yarnpkg.com/suppress-experimental-warnings/-/suppress-experimental-warnings-1.1.10.tgz#1c076b1a99ed7bd4ba30c4c7df0e92aec573eceb"
+  integrity sha512-ivBYRpB8TQgo0HZidbEWdGMUAa1I9zPosu7rFRS7iRguekf7zmHofWwbpdRllKc56PZ1lz8M6MLDKzlbaG9x4A==
 
 svg-element-attributes@^1.3.1:
   version "1.3.1"
@@ -15263,9 +15249,9 @@ terser@^4.1.2, terser@^4.6.3:
     source-map-support "~0.5.12"
 
 terser@^5.0.0, terser@^5.3.4:
-  version "5.16.8"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-5.16.8.tgz#ccde583dabe71df3f4ed02b65eb6532e0fae15d5"
-  integrity sha512-QI5g1E/ef7d+PsDifb+a6nnVgC4F22Bg6T0xrBrz6iloVB4PUkkunp6V8nzoOOZJIzjWVdAGqCdlKlhLq/TbIA==
+  version "5.16.9"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-5.16.9.tgz#7a28cb178e330c484369886f2afd623d9847495f"
+  integrity sha512-HPa/FdTB9XGI2H1/keLFZHxl6WNvAI4YalHGtDQTlMnJcoqSab1UwL4l1hGEhs6/GmLHBZIg/YgB++jcbzoOEg==
   dependencies:
     "@jridgewell/source-map" "^0.3.2"
     acorn "^8.5.0"
@@ -16306,9 +16292,9 @@ window-size@0.1.0:
   integrity sha512-1pTPQDKTdd61ozlKGNCjhNRd+KPmgLSGa3mZTHoOliaGcESD8G1PXhh7c1fgiPjVbNVfgy2Faw4BI8/m0cC8Mg==
 
 with-local-tmp-dir@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/with-local-tmp-dir/-/with-local-tmp-dir-5.0.0.tgz#6565ee6e6bbf17f80d3def31f2b3404722fb0a9a"
-  integrity sha512-30Ppg9fPL/rrlh5PPOxqB0jYDztKrhD2K4HnVJaq99qHq5t5Dgi7SKWB1WvPvb33Rjg9KRtrrCn3jes5p8jooA==
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/with-local-tmp-dir/-/with-local-tmp-dir-5.0.1.tgz#5fa0570e1560008c6089c8f6759a5236f7af4a28"
+  integrity sha512-Ds8Ssl9sfMZArPBlSkEQwxh+EVq3IG8lWxTUipe1ZxP5eNNrkRC622ukpAkhR63jCSu5mvqJ/3bEl1RakRZufw==
   dependencies:
     "@dword-design/chdir" "^2.0.0"
     tmp-promise "^3.0.0"
