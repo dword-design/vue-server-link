@@ -1,3 +1,10 @@
+## [3.0.7](https://github.com/dword-design/vue-server-link/compare/v3.0.6...v3.0.7) (2023-04-12)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester-plugin-puppeteer to v2.1.59 ([3e5ac4b](https://github.com/dword-design/vue-server-link/commit/3e5ac4bde711f2ae2bf70b2cad2e7ff9da1c7638))
+
 ## [3.0.6](https://github.com/dword-design/vue-server-link/compare/v3.0.5...v3.0.6) (2023-04-11)
 
 
