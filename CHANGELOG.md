@@ -1,3 +1,10 @@
+## [3.0.8](https://github.com/dword-design/vue-server-link/compare/v3.0.7...v3.0.8) (2023-04-12)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v9.5.18 ([8f0361d](https://github.com/dword-design/vue-server-link/commit/8f0361d9909449afac772f3607e7d99cc7f0e577))
+
 ## [3.0.7](https://github.com/dword-design/vue-server-link/compare/v3.0.6...v3.0.7) (2023-04-12)
 
 
