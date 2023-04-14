@@ -1,3 +1,10 @@
+## [3.0.10](https://github.com/dword-design/vue-server-link/compare/v3.0.9...v3.0.10) (2023-04-14)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/puppeteer to v6.0.6 ([314980b](https://github.com/dword-design/vue-server-link/commit/314980b18feb9ea2b08425ee199c4413293feeb6))
+
 ## [3.0.9](https://github.com/dword-design/vue-server-link/compare/v3.0.8...v3.0.9) (2023-04-12)
 
 
